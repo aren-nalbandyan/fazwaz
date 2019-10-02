@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Property;
+use App\Models\Property;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;

@@ -136,9 +136,11 @@ class PropertyController extends Controller
                 $randomPropertyType = $faker->numberBetween(0, count($propertyTypes) - 1);
                 $statusRand = $faker->numberBetween(0, count($status) - 1);
                 $bedroom = $faker->numberBetween(1, 10);
-                if($bedroom === 2 && $status[$statusRand]["name"] === "Active" && $forSale
-                    && $propertyTypes[$randomPropertyType]["name"] === "Condo"){
-                    if($sale_bedrooms_count > 3000){
+                if($bedroom === 2 &&
+                    $status[$statusRand]["name"] === "Active" &&
+                    $forSale &&
+                    $propertyTypes[$randomPropertyType]["name"] === "Condo"){
+                    if($sale_bedrooms_count >= 3000){
                         do{
                             $bedroom = $faker->numberBetween(1, 10);
                             $statusRand = $faker->numberBetween(1, count($status));
