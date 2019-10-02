@@ -1,0 +1,42 @@
+//
+@import "~bootstrap/dist/css/bootstrap.css";
+.caret:before{
+    border-top: 0;
+    border-top: 4px solid #0099E3;
+    content: "";
+}
+
+.caret:before {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 14px;
+    margin-left: 12px;
+    vertical-align: middle;
+    border-top: 4px solid #0099E3;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
+
+/* arrow bottom */
+.caretup:after{
+    border-top: 0;
+    border-bottom: 4px solid #0099E3;
+    content: "";
+}
+
+.caretup:after {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-left: 12px;
+    vertical-align: middle;
+    border-bottom: 4px solid #0099E3;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
