@@ -4,7 +4,8 @@
     <list default="true" id="cc125464-acf6-42bd-b597-90579d27c3d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PropertyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/PropertiesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/PropertiesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DummyDataSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DummyDataSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/PropertiesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/PropertiesTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,17 +141,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\fazwaz\resources\js\components\building" />
-      <recent name="C:\xampp\htdocs\fazwaz\tests" />
-      <recent name="C:\xampp\htdocs\fazwaz\app\tests" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\fazwaz\tests\Unit" />
       <recent name="C:\xampp1\htdocs\fazwaz\app\Models" />
       <recent name="C:\xampp\htdocs\fazwaz\resources\js\components\menu" />
       <recent name="C:\xampp\htdocs\fazwaz\resources\js\components\dashboard" />
       <recent name="C:\xampp\htdocs\fazwaz\resources\js\components" />
-      <recent name="C:\xampp\htdocs\fazwaz\tests\Feature" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\fazwaz\resources\js\components\building" />
+      <recent name="C:\xampp\htdocs\fazwaz\tests" />
+      <recent name="C:\xampp\htdocs\fazwaz\app\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,7 +190,9 @@
       <workItem from="1569996738826" duration="798000" />
       <workItem from="1569997754395" duration="643000" />
       <workItem from="1569999559750" duration="422000" />
-      <workItem from="1569999983716" duration="24895000" />
+      <workItem from="1569999983716" duration="25273000" />
+      <workItem from="1570083155774" duration="278000" />
+      <workItem from="1570099688080" duration="973000" />
     </task>
     <servers />
   </component>
@@ -201,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

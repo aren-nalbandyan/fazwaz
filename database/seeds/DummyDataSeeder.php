@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Http\Controllers\PropertyController;
-
+use App\Services\DummyDataService;
 
 class DummyDataSeeder extends Seeder
 {
@@ -14,6 +13,6 @@ class DummyDataSeeder extends Seeder
     public function run()
     {
         //
-        PropertyController::generateDummyData();
+        DummyDataService::generateDummyData();
     }
 }
